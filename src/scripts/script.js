@@ -31,3 +31,7 @@ map.on("draw:edited", function (e) {
         //do whatever you want; most likely save back to db
     });
 });
+
+drawnItems.on("click", (e) => {
+    console.log(e);
+});
