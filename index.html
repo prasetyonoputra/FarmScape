@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Farm Scape</title>
 
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./src/styles/style.css" />
 
         <!-- Leaflet -->
         <link
@@ -30,6 +30,21 @@
     <body>
         <div id="map"></div>
 
-        <script src="./script.js"></script>
+        <div id="formEdit" style="display: none">
+            <h1>INI FORM EDIT</h1>
+        </div>
+
+        <div id="toolbarAksi">
+            <div id="tambahLadang">
+                <button id="buttonLadangBaru" class="buttonAksi">
+                    Ladang
+                </button>
+                <button id="buttonTitikBaru" class="buttonAksi">
+                    Titik
+                </button>
+            </div>
+        </div>
+
+        <script src="./src/scripts/script.js"></script>
     </body>
 </html>

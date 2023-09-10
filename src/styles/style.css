@@ -4,4 +4,33 @@
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 0;
+}
+
+#formEdit {
+    border: 1px solid black;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    z-index: 1;
+}
+
+#toolbarAksi {
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    z-index: 1;
+}
+
+.buttonAksi {
+    height: 65px;
+    width: 65px;
+}
+
+.leaflet-draw, .leaflet-control-zoom {
+    display: none;
 }
